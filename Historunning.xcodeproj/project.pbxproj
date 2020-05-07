@@ -19,6 +19,7 @@
 		016819FE23C9EAB00065BD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016819FC23C9EAB00065BD0C /* LaunchScreen.storyboard */; };
 		01681A0923C9EAB00065BD0C /* HistorunningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01681A0823C9EAB00065BD0C /* HistorunningTests.swift */; };
 		01681A1423C9EAB00065BD0C /* HistorunningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01681A1323C9EAB00065BD0C /* HistorunningUITests.swift */; };
+		0175FD91245C9D7C00547B4A /* ChoosePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0175FD90245C9D7C00547B4A /* ChoosePlace.swift */; };
 		01FE7EEB243E4AA700ADD135 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE7EEA243E4AA700ADD135 /* User.swift */; };
 		15399FBBAD7C8C63E7CAEC39 /* Pods_Historunning_HistorunningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8998920BB8A2DFB7CF32D4 /* Pods_Historunning_HistorunningUITests.framework */; };
 		64F2E3FD7256CF3D207FDFDB /* Pods_Historunning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AD51A435B2DA23AE2C0DC2 /* Pods_Historunning.framework */; };
@@ -61,6 +62,7 @@
 		01681A0F23C9EAB00065BD0C /* HistorunningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistorunningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01681A1323C9EAB00065BD0C /* HistorunningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorunningUITests.swift; sourceTree = "<group>"; };
 		01681A1523C9EAB00065BD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0175FD90245C9D7C00547B4A /* ChoosePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlace.swift; sourceTree = "<group>"; };
 		01FE7EEA243E4AA700ADD135 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3043A529ABD5A822EFC3D135 /* Pods-Historunning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Historunning.release.xcconfig"; path = "Target Support Files/Pods-Historunning/Pods-Historunning.release.xcconfig"; sourceTree = "<group>"; };
 		6A8D65ACC7D9E353184E3D63 /* Pods-Historunning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Historunning.debug.xcconfig"; path = "Target Support Files/Pods-Historunning/Pods-Historunning.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				016819F023C9EAAE0065BD0C /* AppDelegate.swift */,
 				016819F223C9EAAE0065BD0C /* Initial_ViewController.swift */,
+				0175FD90245C9D7C00547B4A /* ChoosePlace.swift */,
 				01FE7EEC243E4B0900ADD135 /* Data Model */,
 				0125E33C243A48400027BF41 /* Login */,
 				016819F423C9EAAE0065BD0C /* Main.storyboard */,
@@ -447,6 +450,7 @@
 				01FE7EEB243E4AA700ADD135 /* User.swift in Sources */,
 				0125E335243A43970027BF41 /* Login_ViewController.swift in Sources */,
 				016819F323C9EAAE0065BD0C /* Initial_ViewController.swift in Sources */,
+				0175FD91245C9D7C00547B4A /* ChoosePlace.swift in Sources */,
 				016819F123C9EAAE0065BD0C /* AppDelegate.swift in Sources */,
 				016819F923C9EAAE0065BD0C /* Historunning.xcdatamodeld in Sources */,
 			);

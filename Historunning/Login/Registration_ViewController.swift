@@ -51,19 +51,34 @@ class Registration_ViewController: UIViewController {
              self.present(popup_empty_pw, animated: true, completion: nil)
         }
         
-        //MARK: 3. Control password matchings and write in db
+        //MARK: 3. Control password matchings
+            
         else if(Reg_Password.text != Reg_ConfirmPassword.text)
         {
-            //print("PASSWORD DO NOT MATCH!!!")
              
             let popup_pw = generateRegPopup(reg_Title: "Wrong Password", reg_Message: "Password Mismatch", reg_Button_Title: "OK")
              
              self.present(popup_pw, animated: true, completion: nil)
         }
+        //MARK: 4. write in db
+        
         else
         {
-
-            save(user: User_reg)
+            //Check if User already exists
+            let existing_user = retrieveUser(Username_data: Reg_emailTextBox.text!)
+                
+            if(existing_user.count == 0)
+                {
+                    save(user: User_reg)
+                    self.performSegue(withIdentifier: "RegistrationToChoosePath", sender: self)
+                }
+                else
+                {
+                    let popup_user_exists = generateRegPopup(reg_Title: "User already existing", reg_Message: "Please insert another e-mail address", reg_Button_Title: "OK")
+                     
+                     self.present(popup_user_exists, animated: true, completion: nil)
+                }
+       
             
 //MARK: present and performsegue not properly working together: check
             
@@ -71,7 +86,7 @@ class Registration_ViewController: UIViewController {
 //
 //          self.present(popup_ok, animated: true, completion: nil)
             
-            self.performSegue(withIdentifier: "RegistrationToChoosePath", sender: self)
+
 
         }
     }
@@ -116,6 +131,17 @@ class Registration_ViewController: UIViewController {
         popup.addButton(OkButton)
         
         return popup
+    }
+    
+    func retrieveUser(Username_data: String) -> Results<User> {
+        
+        let filter_user = Username_data
+        
+        let predicate:NSPredicate = NSPredicate(format: "UserName == %@", filter_user)
+              
+        let user_found = realm.objects(User.self).filter(predicate)
+        
+        return user_found
     }
     
     /*

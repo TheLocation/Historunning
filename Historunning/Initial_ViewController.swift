@@ -18,8 +18,6 @@ class Initial_ViewController: UIViewController {
 
     @IBAction func ToLoginButton(_ sender: UIButton, forEvent event: UIEvent)
     {
-        
-
         self.performSegue(withIdentifier: "ToLogin", sender: self)
     }
     
