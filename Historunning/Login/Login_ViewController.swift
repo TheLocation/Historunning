@@ -32,11 +32,11 @@ class Login_ViewController: UIViewController {
         
         if(user_logged.count == 1)
         {
-            performSegue(withIdentifier: "LoginToChoosePath", sender: self)
+            performSegue(withIdentifier: "LoginToUserProfile", sender: self)
             
-            let login_succesful = generatePopup(reg_Title: "Login Succesful", reg_Message: "Ready to run", reg_Button_Title: "Go")
-            
-            self.present(login_succesful, animated: true, completion: nil)
+//            let login_succesful = generatePopup(reg_Title: "Login Succesful", reg_Message: "Ready to run", reg_Button_Title: "Go")
+//
+//            self.present(login_succesful, animated: true, completion: nil)
         }
         else
         {

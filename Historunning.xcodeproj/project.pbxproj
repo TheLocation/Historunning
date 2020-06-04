@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010345DC24798F3100737FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010345DA24798F3100737FB8 /* Main.storyboard */; };
+		010FDCA824883371004916DA /* UserProfile_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010FDCA724883371004916DA /* UserProfile_ViewController.swift */; };
+		0112949F2484421E00C4AAB0 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112949E2484421E00C4AAB0 /* Place.swift */; };
 		0125E335243A43970027BF41 /* Login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0125E333243A43970027BF41 /* Login_ViewController.swift */; };
 		0125E336243A43970027BF41 /* Login_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0125E334243A43970027BF41 /* Login_ViewController.xib */; };
 		0125E339243A456A0027BF41 /* Registration_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0125E337243A456A0027BF41 /* Registration_ViewController.swift */; };
 		0125E33A243A456A0027BF41 /* Registration_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0125E338243A456A0027BF41 /* Registration_ViewController.xib */; };
+		01293702246F23550008F919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01293701246F23550008F919 /* Assets.xcassets */; };
 		016819F123C9EAAE0065BD0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016819F023C9EAAE0065BD0C /* AppDelegate.swift */; };
 		016819F323C9EAAE0065BD0C /* Initial_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016819F223C9EAAE0065BD0C /* Initial_ViewController.swift */; };
-		016819F623C9EAAE0065BD0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016819F423C9EAAE0065BD0C /* Main.storyboard */; };
 		016819F923C9EAAE0065BD0C /* Historunning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 016819F723C9EAAE0065BD0C /* Historunning.xcdatamodeld */; };
-		016819FB23C9EAB00065BD0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016819FA23C9EAB00065BD0C /* Assets.xcassets */; };
 		016819FE23C9EAB00065BD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016819FC23C9EAB00065BD0C /* LaunchScreen.storyboard */; };
 		01681A0923C9EAB00065BD0C /* HistorunningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01681A0823C9EAB00065BD0C /* HistorunningTests.swift */; };
 		01681A1423C9EAB00065BD0C /* HistorunningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01681A1323C9EAB00065BD0C /* HistorunningUITests.swift */; };
-		0175FD91245C9D7C00547B4A /* ChoosePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0175FD90245C9D7C00547B4A /* ChoosePlace.swift */; };
+		01DD63CD2477010C00293DFE /* ChooseRegion_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD63CC2477010C00293DFE /* ChooseRegion_ViewController.swift */; };
+		01DD63CF24770F8600293DFE /* ChooseRegion_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DD63CE24770F8600293DFE /* ChooseRegion_Cell.swift */; };
 		01FE7EEB243E4AA700ADD135 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE7EEA243E4AA700ADD135 /* User.swift */; };
 		15399FBBAD7C8C63E7CAEC39 /* Pods_Historunning_HistorunningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8998920BB8A2DFB7CF32D4 /* Pods_Historunning_HistorunningUITests.framework */; };
 		64F2E3FD7256CF3D207FDFDB /* Pods_Historunning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AD51A435B2DA23AE2C0DC2 /* Pods_Historunning.framework */; };
@@ -44,16 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010345DB24798F3100737FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		010FDCA724883371004916DA /* UserProfile_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile_ViewController.swift; sourceTree = "<group>"; };
+		0112949E2484421E00C4AAB0 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		0125E333243A43970027BF41 /* Login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_ViewController.swift; sourceTree = "<group>"; };
 		0125E334243A43970027BF41 /* Login_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login_ViewController.xib; sourceTree = "<group>"; };
 		0125E337243A456A0027BF41 /* Registration_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration_ViewController.swift; sourceTree = "<group>"; };
 		0125E338243A456A0027BF41 /* Registration_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Registration_ViewController.xib; sourceTree = "<group>"; };
+		01293701246F23550008F919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016819ED23C9EAAE0065BD0C /* Historunning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Historunning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016819F023C9EAAE0065BD0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016819F223C9EAAE0065BD0C /* Initial_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initial_ViewController.swift; sourceTree = "<group>"; };
-		016819F523C9EAAE0065BD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		016819F823C9EAAE0065BD0C /* Historunning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Historunning.xcdatamodel; sourceTree = "<group>"; };
-		016819FA23C9EAB00065BD0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016819FD23C9EAB00065BD0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016819FF23C9EAB00065BD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01681A0423C9EAB00065BD0C /* HistorunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistorunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +67,8 @@
 		01681A0F23C9EAB00065BD0C /* HistorunningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistorunningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01681A1323C9EAB00065BD0C /* HistorunningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorunningUITests.swift; sourceTree = "<group>"; };
 		01681A1523C9EAB00065BD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0175FD90245C9D7C00547B4A /* ChoosePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlace.swift; sourceTree = "<group>"; };
+		01DD63CC2477010C00293DFE /* ChooseRegion_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRegion_ViewController.swift; sourceTree = "<group>"; };
+		01DD63CE24770F8600293DFE /* ChooseRegion_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRegion_Cell.swift; sourceTree = "<group>"; };
 		01FE7EEA243E4AA700ADD135 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3043A529ABD5A822EFC3D135 /* Pods-Historunning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Historunning.release.xcconfig"; path = "Target Support Files/Pods-Historunning/Pods-Historunning.release.xcconfig"; sourceTree = "<group>"; };
 		6A8D65ACC7D9E353184E3D63 /* Pods-Historunning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Historunning.debug.xcconfig"; path = "Target Support Files/Pods-Historunning/Pods-Historunning.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +120,15 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		0127E784248935C000D57B34 /* Path Choosing */ = {
+			isa = PBXGroup;
+			children = (
+				01DD63CE24770F8600293DFE /* ChooseRegion_Cell.swift */,
+				01DD63CC2477010C00293DFE /* ChooseRegion_ViewController.swift */,
+			);
+			path = "Path Choosing";
+			sourceTree = "<group>";
+		};
 		016819E423C9EAAE0065BD0C = {
 			isa = PBXGroup;
 			children = (
@@ -141,14 +156,15 @@
 			children = (
 				016819F023C9EAAE0065BD0C /* AppDelegate.swift */,
 				016819F223C9EAAE0065BD0C /* Initial_ViewController.swift */,
-				0175FD90245C9D7C00547B4A /* ChoosePlace.swift */,
+				010FDCA724883371004916DA /* UserProfile_ViewController.swift */,
+				0127E784248935C000D57B34 /* Path Choosing */,
 				01FE7EEC243E4B0900ADD135 /* Data Model */,
 				0125E33C243A48400027BF41 /* Login */,
-				016819F423C9EAAE0065BD0C /* Main.storyboard */,
-				016819FA23C9EAB00065BD0C /* Assets.xcassets */,
 				016819FC23C9EAB00065BD0C /* LaunchScreen.storyboard */,
+				010345DA24798F3100737FB8 /* Main.storyboard */,
 				016819FF23C9EAB00065BD0C /* Info.plist */,
 				016819F723C9EAAE0065BD0C /* Historunning.xcdatamodeld */,
+				01293701246F23550008F919 /* Assets.xcassets */,
 			);
 			path = Historunning;
 			sourceTree = "<group>";
@@ -175,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				01FE7EEA243E4AA700ADD135 /* User.swift */,
+				0112949E2484421E00C4AAB0 /* Place.swift */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -315,10 +332,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0125E336243A43970027BF41 /* Login_ViewController.xib in Resources */,
+				010345DC24798F3100737FB8 /* Main.storyboard in Resources */,
 				016819FE23C9EAB00065BD0C /* LaunchScreen.storyboard in Resources */,
 				0125E33A243A456A0027BF41 /* Registration_ViewController.xib in Resources */,
-				016819FB23C9EAB00065BD0C /* Assets.xcassets in Resources */,
-				016819F623C9EAAE0065BD0C /* Main.storyboard in Resources */,
+				01293702246F23550008F919 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,9 +467,12 @@
 				01FE7EEB243E4AA700ADD135 /* User.swift in Sources */,
 				0125E335243A43970027BF41 /* Login_ViewController.swift in Sources */,
 				016819F323C9EAAE0065BD0C /* Initial_ViewController.swift in Sources */,
-				0175FD91245C9D7C00547B4A /* ChoosePlace.swift in Sources */,
+				010FDCA824883371004916DA /* UserProfile_ViewController.swift in Sources */,
 				016819F123C9EAAE0065BD0C /* AppDelegate.swift in Sources */,
 				016819F923C9EAAE0065BD0C /* Historunning.xcdatamodeld in Sources */,
+				0112949F2484421E00C4AAB0 /* Place.swift in Sources */,
+				01DD63CF24770F8600293DFE /* ChooseRegion_Cell.swift in Sources */,
+				01DD63CD2477010C00293DFE /* ChooseRegion_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,10 +508,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		016819F423C9EAAE0065BD0C /* Main.storyboard */ = {
+		010345DA24798F3100737FB8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				016819F523C9EAAE0065BD0C /* Base */,
+				010345DB24798F3100737FB8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -628,6 +648,7 @@
 			baseConfigurationReference = 6A8D65ACC7D9E353184E3D63 /* Pods-Historunning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4M7G325CYM;
 				INFOPLIST_FILE = Historunning/Info.plist;
@@ -637,6 +658,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.matteopostorino.Historunning;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -647,6 +669,7 @@
 			baseConfigurationReference = 3043A529ABD5A822EFC3D135 /* Pods-Historunning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4M7G325CYM;
 				INFOPLIST_FILE = Historunning/Info.plist;

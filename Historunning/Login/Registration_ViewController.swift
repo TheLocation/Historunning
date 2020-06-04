@@ -70,7 +70,7 @@ class Registration_ViewController: UIViewController {
             if(existing_user.count == 0)
                 {
                     save(user: User_reg)
-                    self.performSegue(withIdentifier: "RegistrationToChoosePath", sender: self)
+                    self.performSegue(withIdentifier: "RegistrationToUserProfile", sender: self)
                 }
                 else
                 {
